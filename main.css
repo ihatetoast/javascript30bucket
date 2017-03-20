@@ -1,0 +1,72 @@
+/*font-family: 'Slackey', cursive;*/
+/*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Roboto|Slackey');
+
+html{
+	box-sizing: border-box;
+	background-color: #000;
+
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+header{
+	background-color: #181A41;
+	padding: 1em;
+}
+.title {
+	font-family: 'Slackey', sans-serif;
+	color: #FFC600;
+	font-size: 5em;
+    margin: 0;
+    text-align: center;
+}
+.title2, .title3 {
+	margin: 0;
+	text-align: center;
+}
+.title2 {
+	font-size: 2em;
+}
+.title3 {
+	font-size: 1.5em;
+}
+a {
+	text-decoration: none;
+	color: #FFC600;
+	font-size: 1em;
+}
+.bucket {
+	padding: 0 3em;
+}
+/*FLEX*/
+
+.flex-wrapper {
+	border: 1px solid green;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.days {
+	width: 250px;
+	height: 250px;
+	border: 1px solid red;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+}
+.days > img {
+	width: 150px;
+	margin: 5px auto;
+}
+.days > p {
+	margin:  5px auto;
+}
