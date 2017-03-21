@@ -4,7 +4,7 @@
 
 html{
 	box-sizing: border-box;
-	background-color: #000;
+	background-color: #181A41;
 
 }
 *, *:before, *:after {
@@ -48,19 +48,21 @@ a {
 /*FLEX*/
 
 .flex-wrapper {
-	border: 1px solid green;
+	background-color: #000;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	padding: 10px;
 }
 .days {
 	width: 250px;
 	height: 250px;
-	border: 1px solid red;
+	background-color: #6177AE;
 	padding: 5px;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	margin: 10px;
 
 }
 .days > img {
